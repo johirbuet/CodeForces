@@ -2,7 +2,10 @@ import java.awt.Point;
 import java.util.Scanner;
 
 public class CF_749B {
-
+/**
+ * {@link http://codeforces.com/contest/749/problem/B}
+ * @param args
+ */
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		Point p=new Point();
@@ -16,7 +19,8 @@ public class CF_749B {
 		Point r=new Point();
 		int x3=sc.nextInt();
 		int y3=sc.nextInt();
-		p.setLocation(x, y);
+		p.setLocation(x3, y3);
+		
 	}
 
 }
