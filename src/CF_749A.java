@@ -2,6 +2,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CF_749A {
+	/**
+	 * {@link http://codeforces.com/contest/749/problem/A}
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
