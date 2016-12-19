@@ -20,6 +20,11 @@ public class CF_749B {
 		int x3=sc.nextInt();
 		int y3=sc.nextInt();
 		p.setLocation(x3, y3);
+		//CASE pqrs
+		
+		//CASE srqp
+		
+		//CASE 
 		
 	}
 
