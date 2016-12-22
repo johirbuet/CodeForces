@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class CF_746A {
 
+	/**
+	 * {@link http://codeforces.com/problemset/problem/746/A}
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
