@@ -8,23 +8,30 @@ public class CF_749B {
  */
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		Point p=new Point();
-		int x=sc.nextInt();
-		int y=sc.nextInt();
-		p.setLocation(x, y);
-		Point q=new Point();
-		int x2=sc.nextInt();
-		int y2=sc.nextInt();
-		p.setLocation(x2, y2);
-		Point r=new Point();
-		int x3=sc.nextInt();
-		int y3=sc.nextInt();
-		p.setLocation(x3, y3);
-		//CASE pqrs
-		
-		//CASE srqp
-		
-		//CASE 
+		int ax=sc.nextInt();
+		int ay=sc.nextInt();
+		int bx=sc.nextInt();
+		int by=sc.nextInt();
+		int cx=sc.nextInt();
+		int cy=sc.nextInt();
+		int count =0;
+	
+		//CASE AD and BC are diagonals
+		int dx1=cx+bx-ax;
+		int dy1=cy+by-ay;
+		count ++;
+		//CASE AC and BD are diagonals
+		int dx2=cx+ax-bx;
+		int dy2=cy+ay-by;
+		count++;
+		//CASE AB and CD are diagonals
+		int dx3=ax+bx-cx;
+		int dy3=ay+by-cy;
+		count++;
+		System.out.println(count);
+		System.out.println(dx1+" "+dy1);
+		System.out.println(dx2+" "+dy2);
+		System.out.println(dx3+" "+dy3);
 		
 	}
 
